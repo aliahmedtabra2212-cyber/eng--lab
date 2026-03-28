@@ -1,5 +1,5 @@
 [build]
-  # استبدل 'your-subfolder-name' باسم المجلد الذي يحتوي على ملف package.json
+  # استبدل 'yhttps://github.com/aliahmedtabra2212-cyber/eng--lab/blob/main/manifest.json' باسم المجلد الذي يحتوي على ملف package.json
   base = "your-subfolder-name"
   
   # الأمر الذي يشغل عملية البناء (غالباً ما يكون npm run build)
