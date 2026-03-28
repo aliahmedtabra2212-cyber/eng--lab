@@ -1,47 +1,88 @@
-color: var(--text-color-light);
-            text-decoration: none;
-            padding: 12px 24px;
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المكتبة الهندسية الرقمية</title>
+    
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="manifest" href="manifest.json">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #3498db;
+            --bg: #f4f7f6;
+        }
+
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 4px solid var(--accent);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card h3 {
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 12px 25px;
             border-radius: 8px;
-            font-weight: 500;
-            font-size: 1rem;
-            transition: background-color 0.2s ease, transform 0.1s ease;
-            box-shadow: 0 2px 4px rgba(52, 152, 219, 0.3);
-            border: none;
-            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: 0.3s;
         }
 
-        /* تأثيرات مرور الماوس والضغط على الزر */
         .btn:hover {
-            background-color: var(--hover-accent-color);
+            background: #2980b9;
         }
 
-        .btn:active {
-            transform: translateY(1px); /* ينضغط قليلاً */
-            box-shadow: 0 1px 2px rgba(52, 152, 219, 0.2);
-        }
-
-        /* تذييل الصفحة (Footer) */
         footer {
             text-align: center;
-            padding: 20px;
-            background-color: #f0f3f6;
-            border-top: 1px solid #ddd;
+            padding: 30px;
             font-size: 0.9rem;
             color: #777;
-        }
-
-        /* تعديلات للموبايل */
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 2rem;
-            }
-            .container {
-                margin: 30px auto;
-                gap: 20px;
-            }
-            .card {
-                padding: 20px;
-            }
         }
     </style>
 </head>
@@ -49,38 +90,37 @@ color: var(--text-color-light);
 
     <header>
         <h1>المكتبة الهندسية الرقمية</h1>
-        <p>منصتكِ الإلكترونية الموثوقة للموارد التعليمية والمهنية</p>
+        <p>بوابتكم للوصول إلى الموارد التعليمية المتقدمة</p>
     </header>
 
     <div class="container">
         <div class="card">
-            <div>
-                <h3>محاضرات الأنظمة الرقمية</h3>
-                <p>الملف الأول: عرض وتحميل ملف PDF الخاص بالأنظمة الرقمية الأساسية.</p>
-            </div>
+            <h3>محاضرات الأنظمة الرقمية</h3>
+            <p>عرض وتحميل ملف PDF الخاص بالأنظمة الرقمية.</p>
             <a href="1.pdf" target="_blank" class="btn">فتح الملف 📄</a>
         </div>
 
         <div class="card">
-            <div>
-                <h3>محاضرات تصميم المنطق</h3>
-                <p>الملف الثاني: عرض وتحميل ملف PDF لمبادئ تصميم الدوائر المنطقية.</p>
-            </div>
+            <h3>محاضرات تصميم المنطق</h3>
+            <p>عرض وتحميل ملف PDF لمبادئ التصميم المنطقي.</p>
             <a href="2.pdf" target="_blank" class="btn">فتح الملف 📄</a>
         </div>
 
         <div class="card">
-            <div>
-                <h3>محاضرات الخوارزميات</h3>
-                <p>الملف الثالث: عرض وتحميل ملف PDF الأساسيات المتقدمة للخوارزميات.</p>
-            </div>
+            <h3>محاضرات الخوارزميات</h3>
+            <p>عرض وتحميل ملف PDF لأساسيات الخوارزميات.</p>
             <a href="3.pdf" target="_blank" class="btn">فتح الملف 📄</a>
         </div>
     </div>
 
     <footer>
-        <p>جميع الحقوق محفوظة &copy; 2024 - المكتبة الهندسية الرقمية</p>
+        &copy; 2026 المكتبة الهندسية الرقمية - جميع الحقوق محفوظة
     </footer>
 
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
 </body>
 </html>
