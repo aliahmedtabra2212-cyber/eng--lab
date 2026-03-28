@@ -4,9 +4,8 @@
   "description": "Engineering Lab Project - PWA",
   "main": "index.html",
   "scripts": {
-    "start": "npx serve .",
-    "build": "echo 'No build step required for static files'"
-  },
+    "build": "vite build"
+  }
   "keywords": [
     "engineering",
     "pwa",
