@@ -1,0 +1,17 @@
+{
+  "name": "eng-lab",
+  "version": "1.0.0",
+  "description": "Engineering Lab Project - PWA",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'No build step required for static files'"
+  },
+  "keywords": [
+    "engineering",
+    "pwa",
+    "educational"
+  ],
+  "author": "Zahraa Ahmed Al-Shammari",
+  "license": "ISC"
+}
