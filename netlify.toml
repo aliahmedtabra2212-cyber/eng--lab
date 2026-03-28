@@ -1,7 +1,9 @@
-  command = "bun run build"
+V[build]
+  # استبدل 'your-subfolder-name' باسم المجلد الذي يحتوي على ملف package.json
+  base = "your-subfolder-name"
+  
+  # الأمر الذي يشغل عملية البناء (غالباً ما يكون npm run build)
+  command = "npm run build"
+  
+  # المجلد الذي يتم إنتاجه بعد البناء ليتم نشره (مثل dist أو build أو .next)
   publish = "dist"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
