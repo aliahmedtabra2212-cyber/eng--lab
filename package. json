@@ -4,13 +4,14 @@
   "description": "Engineering Lab Project - PWA",
   "main": "index.html",
   "scripts": {
-    "build": "vite build"
-  }
-  "keywords": [
-    "engineering",
-    "pwa",
-    "educational"
-  ],
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["engineering", "pwa", "educational"],
   "author": "Zahraa Ahmed Al-Shammari",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
 }
