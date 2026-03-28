@@ -1,9 +1,4 @@
 [build]
-  # استبدل 'yhttps://github.com/aliahmedtabra2212-cyber/eng--lab/blob/main/manifest.json' باسم المجلد الذي يحتوي على ملف package.json
-  base = "your-subfolder-name"
-  
-  # الأمر الذي يشغل عملية البناء (غالباً ما يكون npm run build)
+  base = ""
   command = "bun run build"
-  
-  # المجلد الذي يتم إنتاجه بعد البناء ليتم نشره (مثل dist أو build أو .next)
   publish = "dist"
