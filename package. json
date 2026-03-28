@@ -1,17 +1,5 @@
-{
-  "name": "eng-lab",
-  "version": "1.0.0",
-  "description": "Engineering Lab Project - PWA",
-  "main": "index.html",
-  "scripts": {
+"scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
-  }
-  "keywords": ["engineering", "pwa", "educational"],
-  "author": "Zahraa Ahmed Al-Shammari",
-  "license": "ISC",
-  "devDependencies": {
-    "vite": "^5.0.0"
-  }
-}
+  },
