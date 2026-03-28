@@ -1,6 +1,4 @@
-# toml
 [build]
-  # replace with your actual build command, e.g. "npm run build" or "yarn build"
-  command = "npm run build"
-  # replace with folder that contains the built site, e.g. "dist", "build", or "public"
-  publish = "dist"
+base = ""
+publish = "build"
+command = "npm run build"
