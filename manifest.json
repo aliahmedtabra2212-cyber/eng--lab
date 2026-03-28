@@ -1,23 +1,22 @@
 {
-  "short_name": "مكتبتي الهندسية",
-  "name": "مكتبتي الهندسية - Engineering Lab",
-  "description": "منصة تعليمية للهندسة",
+  "name": "تطبيق المختبر الهندسي الخاص بي",
+  "short_name": "EngiLab",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0078d7",
+  "description": "تطبيق خاص بالمشاريع الهندسية والمختبرات.",
   "icons": [
     {
       "src": "icon-192.png",
-      "type": "image/png",
       "sizes": "192x192",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
       "src": "icon-512.png",
-      "type": "image/png",
       "sizes": "512x512",
-      "purpose": "any maskable"
+      "type": "image/png"
     }
-  ],
-  "start_url": "/",
-  "display": "standalone",
-  "theme_color": "#6366f1",
-  "background_color": "#ffffff"
+  ]
 }
+
